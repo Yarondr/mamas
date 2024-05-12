@@ -3,7 +3,7 @@ import numpy as np
 from scipy.stats import pearsonr
 
 
-def get_numbers():
+def get_numbers() -> None:
     """
     Gets numbers from the user (until the user input "-1") then prints the following data:
     average number, amount of positive numbers, the sorted list of the numbers and the pearson correlation coefficient.

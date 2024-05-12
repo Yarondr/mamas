@@ -1,4 +1,4 @@
-def is_sorted_polyndrom(string: str):
+def is_sorted_polyndrom(string: str) -> bool:
     """
     Returns a boolean that indicates if a string is sorted palindrome
     :param string:

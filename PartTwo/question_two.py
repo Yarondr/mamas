@@ -1,4 +1,4 @@
-def pythagorean_triplet_by_sum(sum: int):
+def pythagorean_triplet_by_sum(sum: int) -> None:
     """
     Use the: square(a)+square(b)=square(c) equation, and the: a+b+c=n equation (when n=sum)
     To find these equations: b=(n*n-2*n*a)/(2*n-2*a), and: c=n-b-a
