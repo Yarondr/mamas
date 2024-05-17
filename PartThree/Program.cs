@@ -1,12 +1,9 @@
-﻿using System;
+﻿namespace PartThree;
 
-namespace PartThree
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        Console.WriteLine(NumericalExpression.SumLetters(50));
     }
 }
